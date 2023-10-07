@@ -1,9 +1,11 @@
 import java.util.Random;
+// för att generera slumpmässigatal.
 import java.util.Scanner;
-
+// läser inmatningen och tar emot spelarens gissningar.
 public class GuessingGame {
 
     public static void main(String[] args) { 
+        // Koden görs igenom klassen main
         GuessingGame Game = new GuessingGame();
     }
 }
