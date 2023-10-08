@@ -26,12 +26,20 @@ Int guess;
 System.out.println("Gissa ett tal mellan 1 och 100")
 
 while (true) {
-    System.out.print("gissa ett tal mellan 1 och 100")
+    System.out.print("Gissning" + (numberOfTries + 1) + ": ");
 if (Scanner.hasNextInt()) {
     guess = scanner.nextInt();
     Scanner.nextLine();
 
+    if (Scanner.nextInt ()) {
+        guess = scannerInt();
+        Scanner.nextLine();
+        if ( guess < lowestNumber || guess > highestnumber) {
+            System.out.println(" Du kan bara gissa på ett tall mellan" + lowestNumber + "och" + highetsNumber + ". Försök igen!");
+Continue;
 }
+
+numberOftries++;
 
 
     }
