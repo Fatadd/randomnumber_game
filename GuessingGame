@@ -40,6 +40,16 @@ Continue;
 }
 
 numberOftries++;
+if (guess < secretNumber) {
+    system.out.println("Talet är större.");
+} else if (guess > secretNumber) {
+    system.out.println("Talet är mindre.");
+} else {
+    System.out.println("Du gissade rätt på " + numberOftries + "försök.");
+    break;
+}
+    } else }
+    
 
 
     }
