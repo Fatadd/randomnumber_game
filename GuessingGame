@@ -49,7 +49,20 @@ if (guess < secretNumber) {
     break;
 }
     } else }
-    
+    System.out.println ("Du kan bara gissa på heltal. Försök igen.")
+    Scanner.nextLine();
+
+   }
+}
+
+System.out.print("Vill du spela igen (Ja/Nej?");
+playAgain = scanner.nextLine().toLowerCase();
+
+} while (playagain.equals("ja"));
+System.out.println("Tack för att du har spelat");
+
+}
+
 
 
     }
